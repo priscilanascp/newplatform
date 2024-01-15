@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body{
+    height: 100%;/*Comando para colocar o rodapé no fim da página*/
+    background: linear-gradient(to right,  #b5d5df, #3f51b5);
+}
+
+
+h2{
+    color: #165491;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+p a {
+    color: #fff; 
+    text-decoration: none; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; 
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+
+  }
+  
+  p a:hover {
+    color: #100255; /* Mudar a cor do texto ao passar o mouse (hover) */
+  }
+
+
+/* Estilos para o formulário */
+
+
+ img{
+    width: 40px;
+  
+}
+
+ .logo{
+    text-align: center;
+}
+
+
+
+
+
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+select {
+    
+   
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline-color: #cdf;
+    
+    
+
+}
+
+select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+
+}
+
+
+
+/* Estilos para o header */
+.headercad {
+    
+    color: white;
+    text-align: center;
+    padding-top: 15px 0;
+}
+
+#titcad {
+    margin: 0;
+    color: #165491;
+    
+}
+
+/* Estilos para o footer */
+.container-fluid {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 30px;
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+
+}
+
+.container .title {
+  color: #165491;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .title::before {
+  content: "";
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #71b7e6, #007bff);
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  color: #165491;
+  font-size: 14px;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form .user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3 ease;
+}
+
+form .user-details .input-box input:focus,
+form .user-details .input-box input:valid {
+  border-color: #007bff;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form .input-box label {
+    color: #165491;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .form .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .form .input-box input:focus,
+  .form .input-box input:valid {
+    border-color: #007bff;
+  }
+  
+  .form .input-box input[type="checkbox"] {
+    height: auto; /* Defina a altura para 'auto' para evitar que fique muito grande */
+    width: auto; /* Defina a largura para 'auto' para se ajustar ao tamanho padrão do checkbox */
+    margin-bottom: 0; /* Remova a margem inferior para alinhar corretamente */
+  }
+  
+  .form .input-box input[type="checkbox"] + label {
+    display: flex;
+    align-items: center; /* Alinhe verticalmente o texto ao lado do checkbox */
+    cursor: pointer;
+  }
+
+form .input-box input:focus,
+form .input-box input:valid {
+  border-color: #007bff;
+}
+
+form .botao {
+  text-align: center;
+  margin-top: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #0056b3
+}
+
+.form .termos {
+  margin-top: 20px;
+  text-align: center;
+  color: #165491;
+  font-size: 14px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,260 @@
+/* Estilos para o layout */
+
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+  
+  header {
+    background-color: #3a8bbb;
+    padding: 20px;
+    
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+ 
+
+  .logo {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário para definir a distância do topo */
+    left: 20px; /* Ajuste conforme necessário para definir a distância da esquerda */
+}
+
+.logo img {
+    max-width: 70px;
+}
+
+  .logout{
+    float: right;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+
+  a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+   h1{
+    color:#34158b;
+   }
+
+   .h2-destaque{
+    color:#34158b;
+    text-align: center;
+
+   }
+
+  .encartes {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    margin-left: 30px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Defina a altura máxima desejada para as imagens */
+    object-fit: contain; /* Ajuste para 'contain' para exibir a imagem inteira */
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-info {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .card-info h3 {
+    margin-top: 0;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card-info p {
+    font-size: 12px;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .btn-detalhes {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-detalhes:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Estilos da listagem de supermercados */
+.supermarkets {
+  background-color: #ffffff; /* Branco */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.supermarkets h2 {
+  color: #3a8bbb; /* Azul para os títulos */
+  margin-bottom: 15px;
+}
+
+.supermarkets-list {
+  list-style: none;
+}
+
+.supermarkets-list li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+/* Estilos da listagem de supermercados */
+.supermarkets {
+  background-color: #34158b; /* Branco */
+  padding: 20px;
+}
+
+.supermarkets h2 {
+  color: #3a8bbb; /* Azul para os títulos */
+  margin-bottom: 15px;
+}
+
+.supermarkets-list {
+  list-style: none;
+}
+
+.supermarkets-list li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+
+
+.btn-close {
+  padding: 5px;
+  width: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease; 
+}
+
+.btn-close:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Estilos para a navegação por encartes */
+.navegacao-encartes {
+  background-color: #ffffff; /* Branco */
+  padding: 20px;
+}
+
+.navegacao-encartes h2 {
+  color: #3a8bbb; /* Azul para os títulos */
+  margin-bottom: 15px;
+}
+
+/* Estilos para os detalhes do encarte */
+.detalhes-encarte {
+  background-color: #ffffff; /* Branco */
+  padding: 20px;
+}
+
+.detalhes-encarte h2 {
+  color: #3a8bbb; /* Azul para os títulos */
+  margin-bottom: 15px;
+}
+
+
+/* Estilos para a busca de ofertas */
+.busca-ofertas {
+  background-color: #ffffff; /* Branco */
+  padding: 20px;
+}
+
+.busca-ofertas h2 {
+  color: #3a8bbb; /* Azul para os títulos */
+  margin-bottom: 15px;
+}
+
+
+  footer {
+    background-color: #3a8bbb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .links li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+
+  

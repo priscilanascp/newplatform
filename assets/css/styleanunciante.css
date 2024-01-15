@@ -1,0 +1,255 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+header {
+    background-color: #3a8bbb;
+    padding: 30px;
+    
+}
+
+
+.logo-header {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário para definir a distância do topo */
+    left: 20px; /* Ajuste conforme necessário para definir a distância da esquerda */
+}
+
+.logo-header img {
+    max-width: 70px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centralizar horizontalmente o h1 */
+}
+
+h3{
+    color:#165491; 
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+nav ul {
+    list-style: none;
+    padding-top: 50px;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+
+
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+
+  .section-plan {
+    max-width: 1000px; 
+    margin: 30px auto;
+    padding: 30px;
+    display: flex; 
+    justify-content: space-between;
+    
+    
+    
+  }
+
+
+  .section-cad {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+
+  .plan-card {
+    flex: 1; 
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+    overflow: hidden; 
+    margin-right: 20px;
+  }
+
+  .plan-card:last-child {
+    margin-right: 0; /* Remove a margem à direita do último card */
+  }
+
+  .plan-card h2 {
+    color: #01579B;
+  }
+
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .plan-card li {
+    margin-bottom: 10px;
+  }
+
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  form label, form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .additional-info {
+    margin-top: 20px;
+  }
+
+  .additional-info label, .additional-info input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .additional-info textarea {
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+
+
+#supermercado {
+   
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; 
+    margin: 20px auto; /* Centralizar o formulário */
+    width: 100%;
+    max-width: 350px;
+    margin: 70px auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#165491;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-logout {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #3a8bbb;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
