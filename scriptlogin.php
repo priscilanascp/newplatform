@@ -37,17 +37,17 @@ if ($row) {
 
     switch($tipo){
         case 'visitante': // Verifique se está tudo em letras minúsculas como inserido no banco de dados
-            $_SESSION['usuario'] = $email;
+            $_SESSION['usuario'] = $nome;
             header('Location: visitante.php');
             exit();
             break;
         case 'anunciante':
-            $_SESSION['usuario'] = $email;
+            $_SESSION['usuario'] = $nome;
             header('Location: anunciante.php');
             exit();
             break;
         case 'funcionario':
-            $_SESSION['usuario'] = $email;
+            $_SESSION['usuario'] = $nome;
             header('Location: funcionario.php');
             exit();
             break;
