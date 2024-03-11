@@ -17,7 +17,7 @@ $email = $_POST['email'];
 $senha = MD5($_POST['senha']);
 
 //4- Criar uma Query no Banco de Dados para validar os dados do usuário
-$query = $conn->prepare("SELECT id, tipo_usuario FROM usuario WHERE email=:e and senha=:s");
+$query = $conn->prepare("SELECT id, tipo_usuario,nome FROM usuario WHERE email=:e and senha=:s");
 
 
 //5- Validar os dados do usuário através do método bindValue
@@ -34,7 +34,7 @@ $row = $query->fetch(PDO::FETCH_ASSOC);
 //8-Criando um sistema de Login com Nível de Acesso
 if ($row) {
     $tipo = $row['tipo_usuario'];
-
+    $nome = $row['nome'];
     switch($tipo){
         case 'visitante': // Verifique se está tudo em letras minúsculas como inserido no banco de dados
             $_SESSION['usuario'] = $nome;
