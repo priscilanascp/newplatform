@@ -20,6 +20,7 @@ session_start();
 
     <main class="conteudo">
         <section class="container">
+            <div class="formulario">
             <div class="logo">
                 <a href="index.html"><img src="assets/img/login.png"></a>
             </div>
@@ -66,14 +67,13 @@ session_start();
             <div class="conta">
                 <h4 style="text-align: center;">Ainda não tem conta? <a href="cadastro.php">Faça seu cadastro!</a></h4>
             </div>
-            
+            </div>
         </section>
 
     </main>
 
     <footer class="footer-box">
         <h2>&copy; Marketplace</h2>
-        <p>Versão: 1.0.000 - AMBIENTE DE PRODUÇÃO: AM</p>
         <p>Todos os direitos reservados</p>
     </footer>
 </body>

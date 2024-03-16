@@ -9,7 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styleCad.css">
+    <link rel="stylesheet" href="assets/css/stylecadastro.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="shortcut icon" href="assets/img/logospm2.jpeg">
     <title>Cadastro</title>
@@ -57,9 +57,16 @@ session_start();
 
 <main class="conteudo">
 <section class="container">
+<div class="imagem">
+            <img src="./assets/img/supermercado-img.jpeg" alt="Imagem de fundo">
+        </div>
+        <div class="formulario">
+        
   <div class="title">Cadastre-se</div>
+ 
   <form action="scriptcadastro.php" method="post" id="form-cad">
-    <div class="user-details">
+ 
+  <div class="user-details">
       <div class="input-box">
         <label for="nome" class="details">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
@@ -103,20 +110,19 @@ session_start();
         Concordo com os <a href='#' target='_blank'>termos e condições</a>
       </label>
     </div>
+    
     <div class="botao">
       <button type="submit">Cadastrar</button>
     </div>
-    <div class="termos">
-      *Ao clicar em "Cadastrar", você concorda com nossos termos e condições.
-    </div>
   </form>
+      </div>
 </section>
 </main>
 
-    <footer class="container-fluid">
+    <footer class="container-footer">
        
                          
-    <span>&copy; 2023 Bootstrap - O melhor framework web. Todos os direitos reservados. Atualmente v5.3 </span>
+    <span>&copy; Todos os direitos reservados a plataforma - 2024</span>
    
     <p style="margin-top: 10px;"><a href="index.php">Voltar a home</a></p>
 

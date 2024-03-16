@@ -15,7 +15,7 @@ session_start();
     <title>Plataforma de Ofertas</title>
 </head>
 <body>
-    <header id="header"> <!--Início do Cabeçalho-->
+    <header id="header"> <!--Início do Header-->
         <nav><!--Barra de navegação-->
             <ul>
                 <a class="a-nav" href="#Home">Página Inicial</a>
@@ -35,14 +35,14 @@ session_start();
     </div>
 
         <div class="titulo">
-            <h1>marketplace</h1>
-            <h3>Encontre o mercado com os melhores preços aqui</h3>
+            <h1>Super Ofertas</h1>
+            <h3>Encontre as melhores ofertas do mercado aqui!</h3>
         </div>
-    </header><!--Fim do Cabeçalho-->
+    </header><!--Fim do Header-->
 
 <hr>
 
-    <!--Conteúdo principal-->
+    <!--Sections de Serviços-->
     <h2 id="Servicos">Nossos serviços</h2>
     <div class="container-search">
         <form class="topnav-search-wrap" style="flex:1" action="">
@@ -63,8 +63,6 @@ session_start();
     </div>
 
 
-
-    
 
     <div class="card">
         
@@ -115,9 +113,9 @@ Seja bem-vindo à nossa plataforma, onde a escolha da melhor oferta está ao alc
         </div>
 
 
-    <!--Rodapé-->
+    <!--Footer-->
     <footer id="footer">
-        <p>&copy; Todos os direitos reservados plataforma a - 2023.</p>
+        <p>&copy; Todos os direitos reservados a plataforma  - 2024.</p>
     </footer>
     
 </body>

@@ -10,10 +10,10 @@ $conn=conectar();
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$senha = MD5($_POST['senha']);
 $tipo_usuario = $_POST['tipo_usuario'];
-
-
+$senha = MD5($_POST['senha']);
+echo "Nome: $nome<br>";
+echo "Tipo: $tipo_usuario<br>";
 //Preparando o INSERT INTO com pseudo-nome para cadastrar no banco de dados
 $cadastro = $conn->prepare("INSERT INTO usuario(nome, email, senha, tipo_usuario)
 VALUES(:nome, :email, :senha, :tipo_usuario)");

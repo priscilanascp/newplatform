@@ -52,7 +52,6 @@ body{
 
 
 
-
 #header h3{
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
@@ -137,7 +136,7 @@ header {
   }
   
   .topnav-search-submit {
-    background-color: #007bff;
+    background-color: #3f51b5;
     border: none;
     border-radius: 0 4px 4px 0;
     padding: 8px;
@@ -154,24 +153,6 @@ header {
   }
   
 
-
-#bloco{
-    width: 40em;
-    padding-top: 0;
-    padding-right: 5em;
-    padding-bottom: 2em;
-    padding-left: 5em;
-    margin: 0 auto;
-}
-
-#conteudo1{
-    background-color: #fff;
-    padding: 4em 4em 2em 4em;
-    margin-top: 2em;
-    margin-bottom: 4em;
-    text-align: center;
-    border-radius: 10px;
-}
 
 .button{
     border: 2px solid #9a9a9a;
@@ -200,7 +181,7 @@ a{
 }
 
 
-
+ /* Estilos para Serviços */
 
 #Servicos {
     color: #3f51b5;
@@ -210,6 +191,7 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 
+ /* Estilos para o Quem Somos*/
 
 #Quem-Somos {
     color: #3f51b5;
@@ -290,3 +272,4 @@ a{
     color: #f1f1f1;
     position: absolute;
 }
+

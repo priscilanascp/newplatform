@@ -79,6 +79,9 @@
     display: flex;
     gap: 20px;
     overflow-x: auto;
+    padding-left: 250px;
+
+
   }
   
   .card {
